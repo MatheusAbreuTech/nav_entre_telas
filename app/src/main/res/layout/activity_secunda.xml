@@ -6,7 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fundo"
     tools:context=".SecundaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginBottom="50dp"
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -40,4 +49,7 @@
                 android:layout_weight="1"
                 android:text="Terceira Activity" />
         </LinearLayout>
+    </LinearLayout>
+
+
 </LinearLayout>
